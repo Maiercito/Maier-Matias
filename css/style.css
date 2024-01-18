@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  border-left: 1px solid black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(8, 8, 8);
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+header h1 a, ul li a {
+  color: aliceblue;
+}
+
+header nav ul li {
+  border: 1px solid white;
+  border-radius: 30px;
+  box-shadow: 0 0 2px white;
+}
+
+header nav ul li a {
+  margin: 8px;
+}
+
+header li:hover {
+  border: 0px solid white;
+  box-shadow: 0px 0px 7px white;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+header span {
+  color: rgb(41, 95, 255);
+}
+
+header a:hover {
+  color: rgb(41, 95, 255);
+}
+
+header h1 a span:hover {
+  color: white;
+  transition: 0.9s;
+}
+
+
+/*FOOTER*/
+
+
+#footer-container{
+  display: flex;
+  background-color: rgb(2, 2, 2);
+  letter-spacing: 2px;
+  padding: 5px;
+  grid-area: footer;
+  justify-content: space-between;
+}
+
+#footer-container a, h2{
+  color: aliceblue;
+}
+
+.contactanos{
+  margin-right: 50px;
+}
+
+/*PAGES PRODUCTOS*/
+
+.main-productos table, td{
+  border: 1px solid black;
+}
+
+.main-contacto{
+  border: 1px solid red;
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
